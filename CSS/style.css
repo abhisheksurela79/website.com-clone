@@ -14,7 +14,7 @@
 
 .arrow-down {
     background-color: transparent;
-    background-image: url('/icons/arrow-down.svg');
+    background-image: url('icons/arrow-down.svg');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: contain;
@@ -163,7 +163,7 @@ nav {
 .img {
     width: 690px;
     /* height: 454px; */
-    background-image: url(/images/img_hero2x.webp);
+    background-image: url(images/img_hero2x.webp);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
