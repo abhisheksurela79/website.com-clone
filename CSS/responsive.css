@@ -1,0 +1,223 @@
+:root {
+    --primary-color: #007cdc;
+    --secondary-color: #FF4419;
+    --hover-secondary-color: #df340d;
+    --navbar-color: #EAF1F1;
+}
+
+
+
+@media only screen and (max-width: 871px) {
+    .top-navbar-right-container {
+        display: none;
+    }
+
+    .top-navbar-right-container > li, .signup-btn {
+        margin: 0.5rem 0;
+    }
+
+    .bottom-navbar {
+        display: none;
+    }
+
+    .arrow-down {
+        background-color: transparent;
+        background-image: url('/icons/arrow-down.svg');
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: contain;
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        margin-left: 3px;
+    }
+
+    .mobile-navbar:hover {
+        color: var(--primary-color);
+    }
+
+
+    #menu-icon:hover .arrow-down {
+        transform: rotate(-180deg);
+        filter: invert(27%) sepia(93%) saturate(2744%) hue-rotate(191deg) brightness(98%) contrast(101%);
+        transition-timing-function: ease-in-out;
+        transition: 0.9s;
+    }
+
+    .mobile-navbar {
+        display: inline;
+        margin-left: 2rem;
+        display: inline;
+        text-transform: uppercase;
+        line-height: 2.25rem;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+        height: 2.063rem
+    }
+
+    .bottom-navbar > li {
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+
+
+    .section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--navbar-color);
+    padding: 2.188rem 3.75rem 0rem 3.75rem;
+    padding-top: 5rem;
+    align-items: center;
+    /* border: 2px solid rgb(138, 207, 229); */
+
+}
+
+.content {
+    width: 100%;
+    margin: 2rem;
+    font-size: 12px;
+    /* border: 2px solid rgb(138, 207, 229); */
+
+    
+    
+}
+
+.title {
+    color: #000;
+    margin: 0;
+    font-size: 3.375em;
+    line-height: 1.05em;
+    letter-spacing: -.015em;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    height: 454px;
+    background-image: url(/images/img_hero2x.webp);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* border: 2px solid lightcoral; */
+}
+
+.description > p {
+    color: #1d1d1f;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.1667em;
+    letter-spacing: .009em;
+    margin-top: 0.7em;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.banner-btn {
+    font-size: 8px;
+    text-align: center;
+}
+
+
+.btn-signup {
+    margin-top: 0.2vw;
+    /* height: 60px; */
+    line-height: 30px;
+    width: 15em;
+    padding: 0;
+    font-size: 15px;
+    color: #fff;
+    background: #FA5515;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.btn-signup:hover{
+    background-color: var(--hover-secondary-color);
+    transition-timing-function: ease-in-out;
+    transition: 0.9s;
+}
+}
+
+@media only screen and (max-width: 592px) {
+    .mobile-login {
+        display: none;
+    }
+
+    .top-navbar > div:nth-child(1) {
+        display: inline;
+        margin-left: 0;
+        
+    }
+
+    .top-navbar {
+        align-items: baseline;
+    }
+
+    .logo {
+        width: 100px;
+        line-height: 0;
+        cursor: pointer;
+    }
+
+    .bottom-navbar > li {
+        margin: 0.5rem 0;
+        padding: 0;
+    }
+    
+
+    nav {
+        padding: 1.188rem 1.55rem 0rem 1.55rem;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 871px) and (max-width: 1375px) {
+    .bottom-navbar > li:nth-child(3), .bottom-navbar > li:nth-child(4) {
+        display: none;
+    }
+
+    .description > p {
+        font-size: 1.2em;
+    }
+
+    .btn-signup {
+        margin-top: 0.2vw;
+        height: 50px;
+        line-height: 50px;
+        width: 15em;
+        font-size: 17px;
+        margin-bottom: 3rem;
+    }
+
+    .title {
+        font-size: 2.375em;
+        line-height: 1.05em;
+        letter-spacing: -.015em;
+        font-weight: 700;
+        margin-bottom: 3rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 872px) and (max-width: 988px) {
+    .bottom-navbar > li {
+        margin-left: 2rem;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
